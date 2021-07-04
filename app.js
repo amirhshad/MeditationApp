@@ -12,7 +12,7 @@ const app = () => {
     //Duration
     const timeSelect = document.querySelectorAll(".time-select button");
     let fakeDuration = 600;
-    
+
     outline.style.strokeDashoffset = outlineLength;
     outline.style.strokeDasharray = outlineLength;
 
@@ -31,8 +31,8 @@ const app = () => {
         checkPlaying(song);
     });
 
-    
-    //Select sound 
+
+    //Select sound
     timeSelect.forEach(option =>{
         option.addEventListener('click', function() {
             fakeDuration = this.getAttribute("data-time");
@@ -77,9 +77,9 @@ const app = () => {
             video.pause();
         }
     };
-    
+
     };
-   
+
 
 
 

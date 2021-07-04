@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   .app {
     height: 100vh;
     display: flex;
@@ -11,7 +11,7 @@
     align-items: center;
     font-family: "Montserrat", sans-serif;
   }
-  
+
   .time-select,
   .sound-picker {
     height: 80%;
@@ -33,7 +33,7 @@
     border: 2px solid white;
     transition: all 0.5s ease;
   }
-  
+
   .sound-picker button {
     border: none;
     height: 120px;
@@ -50,12 +50,12 @@
   .sound-picker button img {
     height: 100%;
   }
-  
+
   .time-select button:hover {
     background: white;
     color: black;
   }
-  
+
   .player-container {
     position: relative;
     height: 80%;
@@ -65,7 +65,7 @@
     flex-direction: column;
     flex: 1;
   }
-  
+
   .player-container svg {
     position: absolute;
     height: 50%;
@@ -83,7 +83,7 @@
     font-size: 50px;
     bottom: 10%;
   }
-  
+
   video {
     position: fixed;
     top: 0%;
@@ -91,4 +91,3 @@
     width: 100%;
     z-index: -10;
   }
-  
